@@ -38,16 +38,13 @@ This repository contains the implementation and analysis of five different Ident
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/IBI-schemes.git
+   git clone https://github.com/MohnishShende/IBI-schemes.git
    cd IBI-schemes
    ```
 
-2. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
-3. **Run the Schemes**:
+
+2. **Run the Schemes**:
    ```bash
    python keygen.py   # Run the key generation
    python protocol.py # Run the protocol operations
