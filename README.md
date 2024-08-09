@@ -1,7 +1,7 @@
 # IBI-schemes
 IBI Schemes in python using ECC
 
-Here's some brief text you can use for the information section of your GitHub repository:
+
 
 ---
 
