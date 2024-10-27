@@ -30,7 +30,7 @@ def ukgen(msk_encoded):
     user_public_encoded = base64.b64encode(pickle.dumps(user_public)).decode()
     return user_public_encoded, user_secret_encoded
 
-def profile_section(func, runs=5):
+def profile_section(func, runs=1000):
     runtimes = []
     heaps = []
     for _ in range(runs):
