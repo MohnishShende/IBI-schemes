@@ -7,7 +7,7 @@ import functools
 from ecdsa import VerifyingKey, SECP256k1, BadSignatureError
 import requests
 
-def profile_section(func, runs=5):
+def profile_section(func, runs=1000):
     @functools.wraps(func)
     def wrapper(*args, **kwargs):
         total_runtime = 0
