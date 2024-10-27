@@ -77,7 +77,7 @@ class TwinSchnorrIBI:
 twin_schnorr_ibi = TwinSchnorrIBI()
 
 # Profiling function
-def profile_section(name, func, *args, runs=5, **kwargs):
+def profile_section(name, func, *args, runs=1000, **kwargs):
     """Profiles a function's runtime and peak memory usage over multiple runs."""
 
     total_time = 0
