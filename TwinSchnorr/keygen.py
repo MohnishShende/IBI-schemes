@@ -77,7 +77,7 @@ class TwinSchnorrIBI:
         return left_side == right_side
 
 # Profiling function (outside the TwinSchnorrIBI class)
-def profile_section(name, func, *args, runs=5, **kwargs):
+def profile_section(name, func, *args, runs=1000, **kwargs):
     """Profiles a function's runtime and peak memory usage over multiple runs."""
     total_time = 0
     peak_memory = 0
