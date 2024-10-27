@@ -8,7 +8,7 @@ import ecdsa
 def profile_function(name, func, *args, **kwargs):
     total_time = 0
     total_memory = 0
-    runs = 5
+    runs = 1000
     result = None
     for _ in range(runs):
         tracemalloc.start()
