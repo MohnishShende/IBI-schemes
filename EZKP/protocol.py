@@ -24,7 +24,7 @@ def verify(user_public_encoded, challenge, proof_encoded):
     q = int.from_bytes(hashlib.sha256(challenge.encode()).digest(), 'big') % (p-1)
     return z == (pow(a, y, p) * pow(P, -q, p)) % p
 
-def profile_section(func, runs=5):
+def profile_section(func, runs=1000):
     runtimes = []
     heaps = []
     for _ in range(runs):
