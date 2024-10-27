@@ -9,7 +9,7 @@ from hashlib import sha256
 
 SECP256K1_ORDER = SECP256k1.order
 
-def profile_section(name, func, runs=5, *args, **kwargs):
+def profile_section(name, func, runs=1000, *args, **kwargs):
     total_time = 0
     total_heap = 0
     result = None
